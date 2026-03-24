@@ -6,7 +6,7 @@ string author;
 double price;
 public:
 Book(); // default construtor 
-Book(string author); // parametrized
+Book(string author); // parameterized
 Book(string author,double price); //parameterized
 	void inputDetails();
 	void displayDetails();
@@ -43,7 +43,7 @@ void Book::displayDetails(){
 
 }
 int main(){
-    Book b("rd sharma",650);
+    Book b("Dr. R.D sharma",650);
     b.inputDetails();
     b.displayDetails();
     return 0;
