@@ -1,0 +1,9 @@
+//syntax
+int A[50];//static memory allocation 
+cin>>n;
+
+
+
+//dynamic memory allocation 
+int *A=new int[n];
+delete []A;
